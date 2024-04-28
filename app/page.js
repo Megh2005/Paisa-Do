@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <>
@@ -13,17 +11,17 @@ export default function Home() {
       </div>
       <div className="bg-white h-1 opacity-10"></div>
       <div className="text-white container mx-auto">
-        <h1 className="capitalize text-2xl font-bold text-center my-14">Get funding from your users</h1>
+        <h1 className="capitalize text-2xl font-bold text-center my-14">Perks You Will Receive From Our Side</h1>
         <div className="flex gap-5 justify-around">
           <div className="item space-y-3 flex flex-col justify-center items-center">
             <img className=" bg-[#222233] rounded-full p-2 text-black" width={100} src="/money.png" alt="man" />
             <p className="font-bold">Fund Yourself</p>
-            <p className="text-center capitalize"></p>
+            <p className="text-center capitalize">gain a necessary financial support</p>
           </div>
           <div className="item space-y-3 flex flex-col justify-center items-center">
             <img className=" bg-[#222233] rounded-full p-2 text-black" width={100} src="/orders.png" alt="man" />
             <p className="font-bold">Accept Jobs</p>
-            <p className="text-center capitalize">accept jobs to upskill and get hired</p>
+            <p className="text-center capitalize">accept jobs to upskill & get hired</p>
           </div>
           <div className="item space-y-3 flex flex-col justify-center items-center">
             <img className=" bg-[#222233] rounded-full p-2 text-black" width={100} src="/man-removebg.png" alt="man" />
