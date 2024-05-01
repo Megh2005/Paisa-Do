@@ -12,7 +12,7 @@ export default function Home() {
       <div className="bg-white h-1 opacity-10"></div>
       <div className="text-white container mx-auto">
         <h1 className="capitalize text-2xl font-bold text-center my-14">Perks You Will Receive From Our Side</h1>
-        <div className="flex gap-5 justify-around">
+        <div className="flex gap-5 justify-around cursor-pointer">
           <div className="item space-y-3 flex flex-col justify-center items-center">
             <img className=" bg-[#222233] rounded-full p-2 text-black" width={100} src="/money.png" alt="man" />
             <p className="font-bold">Fund Yourself</p>
