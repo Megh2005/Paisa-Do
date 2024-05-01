@@ -10,8 +10,8 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-white h-1 opacity-10"></div>
-      <div className="text-white container mx-auto">
-        <h1 className="capitalize text-2xl font-bold text-center my-14">Perks You Will Receive From Our Side</h1>
+      <div className="text-white container mx-auto py-32">
+        <h1 className="capitalize text-2xl font-bold text-center mb-16 pb-16">Perks You Will Receive From Our Side</h1>
         <div className="flex gap-5 justify-around cursor-pointer">
           <div className="item space-y-3 flex flex-col justify-center items-center">
             <img className=" bg-[#222233] rounded-full p-2 text-black" width={100} src="/money.png" alt="man" />
@@ -31,6 +31,32 @@ export default function Home() {
           <div className="item space-y-3 flex flex-col justify-center items-center">
             <img className=" bg-[#222233] rounded-full p-2 text-black" width={100} src="/link.png" alt="man" />
             <p className="font-bold">Get Connected</p>
+            <p className="text-center capitalize">Get connected to a larger audiance</p>
+          </div>
+        </div>
+      </div>
+      <div className="bg-white h-1 opacity-10"></div>
+      <div className="text-white container mx-auto py-32">
+        <h1 className="capitalize text-2xl font-bold text-center mb-16 pb-16">Learn More About Us</h1>
+        <div className="flex gap-5 justify-around cursor-pointer">
+          <div className="item space-y-3 flex flex-col justify-center items-center">
+            <img className=" bg-[#222233] rounded-full p-2 text-black" width={100} src="/whtsp.png" alt="man" />
+            <p className="font-bold">Whatsapp</p>
+            <p className="text-center capitalize">gain a necessary financial support</p>
+          </div>
+          <div className="item space-y-3 flex flex-col justify-center items-center">
+            <img className=" bg-[#222233] rounded-full p-2 text-black" width={100} src="/insta.png" alt="man" />
+            <p className="font-bold">Instagram</p>
+            <p className="text-center capitalize">accept jobs to upskill & get hired</p>
+          </div>
+          <div className="item space-y-3 flex flex-col justify-center items-center">
+            <img className=" bg-[#222233] rounded-full p-2 text-black" width={100} src="/facebook.png" alt="man" />
+            <p className="font-bold">Facebook</p>
+            <p className="text-center capitalize">Work harder to achieve your actual goal</p>
+          </div>
+          <div className="item space-y-3 flex flex-col justify-center items-center">
+            <img className=" bg-[#222233] rounded-full p-2 text-black" width={100} src="/mail.png" alt="man" />
+            <p className="font-bold">Email</p>
             <p className="text-center capitalize">Get connected to a larger audiance</p>
           </div>
         </div>
